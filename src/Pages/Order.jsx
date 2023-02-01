@@ -118,7 +118,7 @@ const Order = () => {
         showConfirmButton: true,
       }).then((result)=>{
         if (result.isConfirmed){
-          window.location.replace("http://localhost:3000/")
+          window.location.replace("https://fluffy-mandazi-07cfc8.netlify.app/")
         }
       })
       emptycart(dispatch);
