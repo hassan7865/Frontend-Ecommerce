@@ -198,7 +198,7 @@ const SingleProduct = () => {
                             <Txt>Size</Txt>
                             <Select onChange={handleclick}>
                             {product.size?.map((item)=>(
-                                <Option >{item}</Option>
+                                <Option>{item}</Option>
                                 ))}
                             </Select>
                         </Size>

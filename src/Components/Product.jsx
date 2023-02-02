@@ -109,7 +109,7 @@ const Product = ({cat,filters,sort}) => {
                 <Icon><ShoppingCartIcon/></Icon>    
             </Info>
         </Wrapper>
-        ):product.slice(0,4).map((items)=>
+        ):product.slice(0,3).map((items)=>
         <Wrapper key={items.id}>
             <Image src={items.img}></Image>
             <Info>
